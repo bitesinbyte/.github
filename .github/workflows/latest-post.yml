@@ -4,14 +4,15 @@ on:
     # Runs every night at 2 am
     - cron: "0 2 * * *"
   workflow_dispatch:
-
+permissions:
+  contents: write
 jobs:
   update-readme-with-blog:
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@81e8e9897cbf200255629dfbf58dbd3414a5a7d7 # v1.5.7
+      - uses: actions/checkout@v4
+      - uses: gautamkrishnar/blog-post-workflow@1
         with:
           readme_path: "./profile/README.md"
           feed_list: "https://blogs.bitesinbyte.com/feed.xml"
