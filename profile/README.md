@@ -70,7 +70,6 @@ From medical exam prep for doctors in Germany to citizenship test tools, career 
 ## 📝 Latest from the Blog
 
 <!-- BLOG-POST-LIST:START -->
-
 - [Automate Draw.io Diagram Export with GitHub Actions](https://blogs.bitesinbyte.com//posts/automate-drawio-github-actions/)
 - [Automate Draw.io Diagram Export with Azure DevOps](https://blogs.bitesinbyte.com//posts/automate-drawio-azure-devops/)
 - [Principal does not have access to API/Operation](https://blogs.bitesinbyte.com//posts/principal-does-not-have-access-to-api-operation/)
